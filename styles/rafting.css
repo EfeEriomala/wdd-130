@@ -16,6 +16,7 @@ h5,
 h6{
   color:#EE964B;
   font-family: cursive;
+  text-align: center;
 }
 p {
   color: var(--font-color);
@@ -104,6 +105,10 @@ body {
 }
 .history{
   padding: 20px 0;
+  
+}
+.history p,img{
+  display: inline;
 }
 .adventures{
   display: grid;
@@ -131,6 +136,8 @@ footer{
 }
 footer p{
   color: white;
+  text-align: center;
+  padding-right: 20%;
 }
 footer img{
  width: 24px;
