@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Rafting Company</title>
+  <meta name="description" content="Get in touch with us for inquiries, reservations, and suggestions. Contact the Rafting Company today!">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header>
+    <!-- Header content, same as other pages -->
+    <h1>Rafting Company</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="contact-info">
+      <h2>Contact Information</h2>
+      <p>Address: 123 Rafting Lane, Adventure Town, USA</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@raftingcompany.com</p>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen></iframe>
+      </div>
+    </section>
+  
+    <section id="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="employee">
+        <img src="employee1.jpg" alt="Jane Doe">
+        <p>Jane Doe, Adventure Guide</p>
+      </div>
+      <div class="employee">
+        <img src="employee2.jpg" alt="John Smith">
+        <p>John Smith, Customer Service</p>
+      </div>
+      <div class="employee">
+        <img src="employee3.jpg" alt="Emily Johnson">
+        <p>Emily Johnson, Marketing Manager</p>
+      </div>
+    </section>
+  
+    <section id="inquiry-form">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <fieldset>
+          <legend>Purpose of Message:</legend>
+          <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+          <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+          <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+        </fieldset>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <!-- Footer content, same as other pages -->
+    <p>&copy; 2024 Rafting Company</p>
+  </footer>
+</body>
+</html>
+  
